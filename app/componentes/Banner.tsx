@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className=" bg-[#B20000] w-full h-[500px] flex flex-col p-20">
       <h4 className="w-full text-center text-4xl text-white font-light">
-        What is the "Tech Hub" ?
+        What is the &ldquo;Tech Hub&rdquo; ?
       </h4>
       <hr className="w-[50px] border-white mx-auto my-8" />
       <div className="flex flex-row gap-36 mx-auto text-white text-xl font-light my-8">
