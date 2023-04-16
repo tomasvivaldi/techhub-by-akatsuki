@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <div className="flex flex-row justify-between items-center my-4 mx-12">
+    <div className="absolute top-0 w-full flex flex-row justify-between items-center my-4 mx-12">
       <div className="flex flex-row gap-16 items-center">
         <Image
           src="/logo/logo.svg"

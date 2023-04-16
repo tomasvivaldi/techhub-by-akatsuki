@@ -3,12 +3,12 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="flex flex-row justify-around pb-16 px-52 relative">
+    <div className="flex flex-row justify-around px-52 relative h-screen pt-12">
       <div className="flex flex-col gap-16 mx-auto my-auto">
         <div className=" text-[90px] font-light">
           Enpower your career in Tech
         </div>
-        <div className="text-2xl font-light">
+        <div className="text-2xl font-light pr-4">
           Tech hub is the job board site for engineers
           <br /> who seek to create the future.
         </div>
@@ -25,7 +25,7 @@ function Hero() {
         width={625}
         height={1140}
         alt="logo"
-        className="h-auto w-[400px] absolute bottom-0 lg:right-36 xl:right-52 -z-10"
+        className="h-auto w-[400px] absolute bottom-0 lg:right-36 xl:right-48 -z-10"
       />
       <Image
         src="/images/fg1.svg"
